@@ -7,6 +7,7 @@ import { BrainHealth } from "@/components/BrainHealth";
 import { ListeningConnection } from "@/components/ListeningConnection";
 import { PerspectiveToggle } from "@/components/PerspectiveToggle";
 import { CallToAction } from "@/components/CallToAction";
+import { InstagramFeed } from "@/components/InstagramFeed";
 import { OurStory } from "@/components/OurStory";
 import { Citations } from "@/components/Citations";
 import { Footer } from "@/components/Footer";
@@ -33,6 +34,7 @@ export default function Home() {
         <ListeningConnection />
         <PerspectiveToggle />
         <CallToAction />
+        <InstagramFeed />
         <OurStory />
         <Citations />
       </main>
