@@ -508,7 +508,7 @@ export function GlobalPerspective() {
                     <CommandList>
                       <CommandEmpty>No country found.</CommandEmpty>
                       <CommandGroup>
-                        {countryData.map((c) => (
+                        {[...countryData].sort((a, b) => a.name.localeCompare(b.name)).map((c) => (
                           <CommandItem
                             key={c.name}
                             value={c.name}
