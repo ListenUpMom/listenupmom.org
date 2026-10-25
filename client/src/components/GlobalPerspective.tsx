@@ -557,7 +557,7 @@ export function GlobalPerspective() {
                     Select a country to see hearing health data, women & girls impact, and the dementia connection.
                   </p>
                   <p className="text-xs text-muted-foreground/70">
-                    Prevalence data from the Global Burden of Disease Study 2021 covering {countryData.length} countries and territories.
+                    Prevalence data for {countryData.length} countries and territories from the Global Burden of Disease Study 2021.
                   </p>
                 </div>
               </div>
