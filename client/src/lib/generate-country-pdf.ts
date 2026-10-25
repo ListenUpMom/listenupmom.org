@@ -719,6 +719,11 @@ function drawPage2Country(
   doc.setFontSize(20);
   doc.setFont("helvetica", "bold");
   setColor(doc, DARK);
+  let titleSize = 20;
+  while (doc.getTextWidth(country.name) > contentW && titleSize > 12) {
+    titleSize -= 1;
+    doc.setFontSize(titleSize);
+  }
   doc.text(country.name, margin, y);
 
   y += 7;
